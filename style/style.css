@@ -116,7 +116,6 @@ footer {
     grid-template-rows: 50px 50px 100px;
     flex-direction: column;
     align-items: center;
-    
 }
 .item1{
     font-size: 2.3rem;
@@ -127,16 +126,53 @@ footer {
     font-size: .9rem;
     font-style: italic;
     padding-top: 0;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 .item3 {
     padding: 10px;
     align-self: flex-end;
     width: 100%;
     background-color: rgb(167, 4, 4);
-    color: yellow;
     font-size: 1.1rem;
+    color: rgb(194, 194, 14);
 }
 .C17{
     height: 180vh;
+}
+@media screen 
+  and (max-width: 480px) 
+  {
+    h1{
+        font-size: 2.2rem; 
+     }
+     .nav li{
+         display: block;
+      }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        width: 250px;
+        margin: 10px 10px 25px 10px;
+      } 
+    p {
+        font-size: 1.2rem;
+        text-align: justify;
+    }   
+    .C5 {
+        height: 900px;
+    }
+   img{
+       width: 200px;
+   }
+   .back{
+       position: fixed;
+       bottom: 5px;
+       right: 0;
+   }
+   ul>li{
+       margin-left: 5px;
+    }
+    footer>div>div>p{
+        text-align: center;
+    }
 }
