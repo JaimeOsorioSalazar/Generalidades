@@ -191,7 +191,7 @@ footer {
         width: 100%;
     }
 }
-@media screend (max-width:375px){
+@media (max-width:375px){
     section{
         padding-top:25rem ;
     }
